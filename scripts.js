@@ -82,3 +82,6 @@ function coresEstacao() {
 
 // inicia tudo ao carregar a página
 window.addEventListener("load", calcula_estacao);
+
+// Roda a função novamente toda vez que o mês for alterado
+document.getElementById("i_mes").addEventListener("change", calcula_estacao);
