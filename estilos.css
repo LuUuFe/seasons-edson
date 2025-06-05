@@ -119,8 +119,9 @@ body {
 }
 
 .estacao img {
+  background-size: cover;
   width: 100%;
-  display: block;
+  height: 100%;
 }
 
 .estacao.destaque {
