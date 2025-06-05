@@ -129,3 +129,29 @@ body {
   transform: scale(1.05);
   border-color: var(--color-primary);
 }
+
+footer {
+  text-align: center;
+  margin-top: var(--spacing-lg);
+  font-size: 0.9rem;
+  color: #666;
+}
+
+footer ul {
+  list-style: none;
+  padding: 0;
+  margin: var(--spacing-sm) 0 0 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: var(--spacing-md);
+}
+
+footer a {
+  color: var(--color-primary);
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
